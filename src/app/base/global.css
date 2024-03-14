@@ -1,0 +1,38 @@
+:root {
+  --unit: 0.5rem;
+
+  --shbWhite: #ffffff;
+  --shbHb1: #005fa5;
+  --shbHb6: #043b62;
+  --shbGray10: #e8e8e8;
+
+  --shbText2FontSize: calc(var(--unit) * 2);
+  --shbText2LineHeight: calc(var(--unit) * 3);
+
+  --shbText3FontSize: calc(var(--unit) * 1.75);
+  --shbText3LineHeight: calc(var(--unit) * 3);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.w-max-320 {
+  max-width: 320px;
+}
+
+.p-3 {
+  padding: calc(var(--unit) * 3);
+}
+
+.gap-3 {
+  gap: calc(var(--unit) * 3);
+}
+
+html {
+  font-family: "roboto", sans-serif;
+}
